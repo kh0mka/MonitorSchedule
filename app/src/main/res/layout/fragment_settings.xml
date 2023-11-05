@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/primaryOnColor"
+    android:orientation="vertical"
+    tools:context=".presentation.fragments.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="15dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cancel_button"
+            style="@style/Theme.BSUIRSchedule.ImageButton"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="@string/cd_schedule_list" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="?attr/primaryTextColor"
+            style="@style/Theme.BSUIRSchedule.TextView.Medium.Title"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/question_button"
+            style="@style/Theme.BSUIRSchedule.ImageButton"
+            android:src="@drawable/ic_question"
+            android:contentDescription="@string/cd_schedule_list" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/nested_theme_settings"
+                layout="@layout/settings_theme" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <com.khomenok.monitorschedule.presentation.views.CheckBoxView
+                android:id="@+id/notification_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:translationZ="2dp"
+                app:checkbox_icon="@drawable/ic_notifications"
+                app:checkbox_title="@string/settings_notifications_title"
+                app:checkbox_description="@string/settings_notifications_caption"
+                app:checkbox_caption="@string/settings_notification" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <include
+                android:id="@+id/nested_share"
+                layout="@layout/settings_share" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

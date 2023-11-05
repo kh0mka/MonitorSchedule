@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/ic_update"
+        android:iconTint="?attr/colorPrimary"
+        android:title="@string/schedule_header_menu_update" />
+    <item
+        android:id="@+id/add_subject"
+        android:icon="@drawable/ic_add"
+        android:iconTint="?attr/colorPrimary"
+        android:title="@string/schedule_header_menu_add_subject" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_primary"
+        android:iconTint="?attr/colorPrimary"
+        android:title="@string/schedule_header_menu_settings" />
+    <item
+        android:id="@+id/update_history"
+        android:icon="@drawable/ic_timeline"
+        android:iconTint="?attr/colorPrimary"
+        android:title="@string/schedule_header_menu_update_history" />
+    <item
+        android:id="@+id/add_widget"
+        android:icon="@drawable/ic_widget"
+        android:iconTint="?attr/colorPrimary"
+        android:title="@string/schedule_header_menu_add_widget" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:iconTint="@color/danger"
+        android:title="@string/schedule_header_menu_delete" />
+</menu>

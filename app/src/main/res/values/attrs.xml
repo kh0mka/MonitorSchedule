@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryColor">@color/primary</attr>
+    <attr name="primaryOnColor">@color/white</attr>
+    <attr name="primaryOnHintColor">@color/white_hint</attr>
+    <attr name="primaryTextColor">@color/white</attr>
+    <attr name="dialogBg">@color/dark_dialog</attr>
+    <attr name="secondaryColor">@color/secondary_new</attr>
+    <attr name="secondaryOnHintColor">@color/secondary_hint</attr>
+    <attr name="secondaryOnHintButtonColor">@color/secondary_hint</attr>
+    <attr name="secondaryTextColor">@color/text</attr>
+    <attr name="textColor">@color/text</attr>
+    <attr name="textHintColor">@color/text_dark_hint</attr>
+
+    <declare-styleable name="AboutInfoView">
+        <attr name="about_icon" format="integer" />
+        <attr name="about_title" format="string" />
+        <attr name="about_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleHeaderView">
+        <attr name="profileImage" format="string" />
+        <attr name="titleText" format="string" />
+        <attr name="subTitle" format="string" />
+        <attr name="subgroup" format="string" />
+        <attr name="isPreview" format="boolean">false</attr>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxView">
+        <attr name="checkbox_icon" format="integer" />
+        <attr name="checkbox_title" format="string" />
+        <attr name="checkbox_description" format="string" />
+        <attr name="checkbox_caption" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextView">
+        <attr name="android:inputType" />
+        <attr name="android:minWidth" />
+        <attr name="hint" format="string" />
+        <attr name="caption" format="string" />
+        <attr name="action" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleSubgroupView">
+        <attr name="subgroupNum" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>
+
+

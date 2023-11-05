@@ -1,0 +1,519 @@
+<resources>
+    <string name="app_name">Monitor Schedule</string>
+    <string name="course">курс</string>
+    <string name="week">неделя</string>
+    <string name="week_short">%d нед</string>
+    <string name="exam">Экзамен</string>
+    <string name="pretest">Зачет</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="consultation">Консультация</string>
+    <string name="lecture">Лекция</string>
+    <string name="practise">Практика</string>
+    <string name="found">найдено %s</string>
+    <string name="laboratory">Лабораторная</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="widget_successfully_added">Виджет успешно добавлен</string>
+    <string name="info_dialog_title">Внимание</string>
+    <string name="update">Обновить</string>
+    <string name="okay">Понятно</string>
+    <string name="and">и</string>
+    <string name="after">через</string>
+    <string name="delete">Удалить</string>
+    <string name="employee">Преподаватель</string>
+    <string name="group">Группа</string>
+    <string name="short_hour">%d ч</string>
+    <string name="short_minute">%d мин</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <string name="alert_reset_settings_title">Вы уверены, что хотите сбросить настройки?</string>
+
+    <string name="schedule_updated_notification">Обновлено %s</string>
+    <string name="group_schedule_updated_notification">Группа %s</string>
+    <string name="employee_schedule_updated_notification">Преподаватель %s</string>
+    <string name="schedule_updated">Расписание обновлено</string>
+    <string name="group_schedule_updated">Обновлено расписание группы</string>
+    <string name="employee_schedule_updated">Обновлено расписание преподавателя</string>
+    <string name="new_notifications_amount">%d новых уведомлений.</string>
+    <string name="last_update">Было обновлено %s</string>
+    <string name="subject_now">Сейчас %s</string>
+    <string name="subject_status_now">Сейчас %s</string>
+    <string name="subject_status_now_in">Сейчас %s, в %s</string>
+    <string name="subject_status_today">%s до %s (%s)</string>
+    <string name="subject_status_today_no_audience">%s до %s</string>
+    <string name="subject_status_tomorrow">Завтра к %s (%s)</string>
+    <string name="subject_status_days_left">Через %s %s в %s</string>
+    <string name="subject_next_time_undefined">Этого предмета больше не будет</string>
+    <string name="subject_next_time">Cлед. %s будет %s</string>
+    <string name="subject_next_time_current_week">%s будет в этой же неделе (%s)</string>
+    <string name="subject_next_time_left_days">через %s</string>
+    <string name="subject_next_time_in_week_day">в %s</string>
+    <string name="no_subject_now">Сейчас нет занятий</string>
+    <string name="audience_now">в %s</string>
+    <string name="add">Добавить</string>
+    <string name="selected_subgroup">Выбрана %d подгруппа</string>
+    <string name="selected_all_subgroups">Выбраны все подгруппы</string>
+    <string name="schedule_empty_date_period">Занятий нет</string>
+    <string name="schedule_date_period">Расписание с %s по %s</string>
+    <string name="exams_date_period">Экзамены с %s по %s</string>
+    <string name="exams_empty_date_period">Экзаменов нет</string>
+    <string name="more">ещё</string>
+    <string name="cancel">Назад</string>
+    <string name="delete_schedule">Удалить расписание  «%s»?</string>
+    <string name="delete_subject">Удалить одно занятие по %s?</string>
+    <string name="agree">Да</string>
+    <string name="active_schedule_no_departments">Кафедра отсутствует</string>
+    <string name="upload_schedule_dialog_title">Хотите посмотреть на расписание %s?</string>
+    <string name="upload_schedule_dialog_title_holder">Хотите посмотреть на это расписание?</string>
+    <string name="upload_schedule_dialog_caption">Если это расписание не было загружено Вами, оно загрузится автоматически</string>
+    <string name="delete_schedule_dialog_title">Вы уверены, что хотите удалить расписание?</string>
+    <string name="delete_schedule_dialog_caption">Настройки расписания так же будут удалены</string>
+    <string name="delete_subject_dialog_title">Вы уверены, что хотите удалить занятие?</string>
+    <string name="delete_subject_dialog_caption">Вернуть занятие можно будет лишь обновив расписание!</string>
+    <string name="reset_schedule_settings">Настройки сброшены</string>
+    <string name="save_schedule_settings">Настройки сохранены</string>
+
+    <!--  Content Descriptions  -->
+    <string name="cd_schedule_list" translatable="false">Schedule list</string>
+    <string name="cd_no_content" translatable="false">no content</string>
+    <string name="cd_subject_type" translatable="false">subject type</string>
+    <string name="cd_exams" translatable="false">exams</string>
+    <string name="cd_schedule_subgroup" translatable="false">Schedule Subgroup</string>
+    <string name="cd_last_update" translatable="false">last update</string>
+    <string name="cd_filter" translatable="false">filter asc or desc</string>
+    <string name="cd_filter_search" translatable="false">search input</string>
+    <string name="cd_logo_icon" translatable="false">logo icon</string>
+    <string name="cd_error_icon" translatable="false">error icon</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="test_schedule_title" translatable="false">Степанова Татьяна Сергеевна</string>
+    <string name="test_schedule_subtitle" translatable="false">к.ф.-м.н. доцент</string>
+    <string name="test_schedule_date" translatable="false">Понедельник</string>
+    <string name="test_schedule_lessons_amount" translatable="false">4 пары</string>
+    <string name="test_schedule_change_amount" translatable="false">2 изменения</string>
+    <string name="test_schedule_day" translatable="false">Сегодня</string>
+    <string name="test_subject_title" translatable="false">Физика</string>
+    <string name="test_subject_subtitle" translatable="false">151005</string>
+    <string name="test_group_spDep" translatable="false">ФИТУ ИИ</string>
+    <string name="test_group_course" translatable="false">1 курс</string>
+    <string name="test_group_type" translatable="false">дневная</string>
+    <string name="test_group_update" translatable="false">20 августа</string>
+    <string name="test_subject_employee_name" translatable="false">Преподаватель</string>
+    <string name="test_subject_break_time" translatable="false">14 минут</string>
+    <string name="test_subject_time" translatable="false">09:00 — 10:20</string>
+    <string name="test_subject_note" translatable="false">Примечание, только до 21 августа</string>
+    <string name="test_header_title">0 неделя</string>
+    <string name="controls_settings">Настройки расписание</string>
+    <string name="schedules_list_title">Мои расписания</string>
+    <string name="schedule_edit_title">Изменить расписание</string>
+    <string name="schedule_subject_add_title">Добавить занятие</string>
+    <string name="no_teacher_title">Преподаватель не указан</string>
+    <string name="no_group_title">Группа не указана</string>
+    <string name="schedules_all_list_title">Все расписания</string>
+    <string name="schedules_subject_edit_title">Изменить занятие</string>
+    <string name="schedules_first_add_all_list_title">Выберите расписания</string>
+    <string name="settings_title">Настройки</string>
+    <string name="about_title">Чего вы могли не знать?</string>
+    <string name="schedules_settings_title">Настройки расписания</string>
+    <string name="schedules_update_history_title">История обновления</string>
+    <string name="schedules_no_lessons">Нет занятий</string>
+    <string name="schedules_no_changes">Нет изменений</string>
+    <string name="lesson_type">Тип занятия</string>
+    <string name="tab_item_group">Группы</string>
+    <string name="tab_item_employee">Преподаватели</string>
+    <string name="tab_item_schedule">Занятия</string>
+    <string name="tab_item_exams">Экзамены</string>
+    <string name="tab_item_calendar">Календарь</string>
+    <string name="tab_item_settings">Настройки</string>
+    <string name="tab_item_schedule_control">Управление</string>
+    <string name="no_data_field">Не указано</string>
+    <string name="subject_break_time_or">или</string>
+    <string name="search_placeholder">Поиск</string>
+    <string name="schedule_title_placeholder">Введите что угодно</string>
+    <string name="loading_dots">загружается ...</string>
+    <string name="popup_settings">Настройки</string>
+    <string name="popup_about">О приложении</string>
+    <string name="popup_update">Обновить</string>
+    <string name="popup_edit">Изменить</string>
+    <string name="popup_more">Дополнительно</string>
+    <string name="popup_rename">Переименовать</string>
+    <string name="popup_deactivate">Не пойду</string>
+    <string name="popup_activate">Пойду</string>
+    <string name="popup_delete">Удалить</string>
+    <string name="all_subgroups">Для всех подгрупп</string>
+    <string name="all_subgroups_short">Все</string>
+    <string name="coming_soon">В стадии разработки</string>
+    <string name="all_subgroups_select">Все подгруппы</string>
+    <string name="subgroup">Для %d подгруппы</string>
+    <string name="subgroup_selected">%d подгруппа выбрана</string>
+    <string name="subject_time">с %s до %s</string>
+    <string name="subject_weeks">на %s нед.</string>
+    <string name="subject_note">Примечание:</string>
+    <string name="schedule_week_number">%d неделя</string>
+    <string name="exams">Экзамены</string>
+    <string name="subject_date_range">C %s по %s</string>
+
+    <!--  About texts  -->
+    <string name="about_search_title">Поиск расписаний</string>
+    <string name="about_search_text">Поиск работает по всем ключевым словам, относящиеся к расписанию.\n\nГруппы можно искать по полному названию или аббревиатуре факультета и специальности:
+        Запрос “ксис поит” выдаст все группы относящиеся к данному факультету и специальности.\n\nЗапрос, состоящий из одной цифры, выдаст все группы соответствующего курса.\n\nТак же и с преподавателями. Можно искать, по кафедре, научной степени (“к.т.н.”, “доцент”, “профессор”, и т.д).</string>
+    <string name="about_rename_title">Переименование расписаний</string>
+    <string name="about_rename_text">Расписание можно пометить своим названием.\n\nНовое название будет помечено в скобках, после оригинального названия расписания.\nНапример: “010101 (Сосед по комнате)“\n\nПереименовывается так же и в глобальном списке всех расписаний, так что, пометив расписание текстом “Сосед”, его можно будет найти поиском в разделе “Все расписания”.\n\nЧтобы переименовать расписание, перейдите в раздел “Мои расписания”, а затем долгим нажатием или нажатием на три точки расписания, выберите “Переименовать”.</string>
+    <string name="about_subject_options_title">Опции занятия</string>
+    <string name="about_subject_options_text">Занятие можно изменить, удалить и пометить, как игнорируемое.\n\nЕсли вы не планируете посещать занятие, его можно пометить, как игнорируемое. В таком случае, приложение не будет его учитывать и упоминать в сообщении на главном экране.\n\nЧтобы добраться до этих опций, воспользуйтесь долгим нажатием на занятие в расписании.</string>
+    <string name="about_schedule_settings_title">Настройки расписания</string>
+    <string name="about_schedule_settings_text">Автообновление, изменение вида, показ прошедших дней и отображение пустых дней.\n\nПриложение ежедневно проверяет каждое скачанное вами расписание на обновление. И в случае обновлении, уведомляет вас об этом и показывает, что именно было изменено в разделе (История обновлений).\n\nЕсть два вида расписаний, короткий и полный. Отличие в том, что в занятиях не отображается подробная информация о преподавателе, который будет вести это занятие или о группах, которые будут его посещать.\n\nУ преподавателей бывают много пустых дней, которые могут занимать лишнее пространство. В таком случае, можно скрыть пустые дни в расписании.\n\nЧтобы изменить настройки расписания, перейдите на главный экран, вызовите контекстное меню, нажав на три точки, а затем выберите “Настройки”.</string>
+    <string name="about_language_title">Приложение поддерживает 2 языка</string>
+    <string name="about_language_text">Поддерживаются русский и английский.\n\nНужный язык автоматически подстроится под вашу операционную систему на устройстве.\n\nНазвания занятий, кафедр, факультетов, специальностей и имен преподавателей всегда остаётся на русском.</string>
+
+    <!--  Errors  -->
+    <string name="data_error">Ошибка обработки данных</string>
+    <string name="data_error_caption">Попробуйте обновить данные</string>
+    <string name="test_schedule_not_loaded">Расписание не найдено</string>
+    <string name="test_schedule_not_loaded_caption">Попробуйте обновить данные</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="server_error_caption">Попробуйте позже</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="connection_error_caption">Проверьте подключение к интернету</string>
+    <string name="update_error">Данные не найдены</string>
+    <string name="update_error_caption">Загрузите данные заново или подключитесь к интернету, чтобы данные загрузились автоматически</string>
+    <string name="database_not_found_error">Данные не найдены</string>
+    <string name="database_not_found_error_caption">Попробуйте загрузить их заново.</string>
+    <string name="database_error">Ошибка базы данных</string>
+    <string name="database_error_caption">Попробуйте очистить данные или переустановить приложение</string>
+    <string name="system_error">Системная ошибка</string>
+    <string name="system_error_caption">Переустановите приложение</string>
+    <string name="schedule_success_updated">Расписание обновлено</string>
+    <string name="schedule_success_updated_caption">Расписание обновлено успешно</string>
+    <string name="schedule_success_deleted">Расписание удалено</string>
+    <string name="schedule_success_deleted_caption">Расписание успешно удалено</string>
+    <string name="schedule_week_loaded_error">Не загрузился номер недели</string>
+    <string name="schedule_subject_edited">Занятие изменено</string>
+    <string name="schedule_subject_edited_caption">Занятие успешно изменено и сохранено в расписании</string>
+    <string name="schedule_subject_deleted">Занятие удалено</string>
+    <string name="schedule_subject_added">Занятие добавлено</string>
+    <string name="schedule_subject_ignored">Занятие будет игнорироваться</string>
+    <string name="schedule_subject_ignored_caption">В статусе расписания больше не будет учитываться это занятие</string>
+    <string name="schedule_subject_not_ignored">Занятие будет учитываться</string>
+    <string name="all_schedules_updated_success">Все расписания обновлены</string>
+    <string name="all_schedules_updated_success_caption">Была изменена структура данных, расписания пришлось обновить</string>
+    <string name="schedule_subject_not_ignored_caption">Это занятие теперь будет учитываться в статусе расписания</string>
+    <string name="schedule_subject_deleted_caption">Занятие успешно удалено с этого расписания</string>
+    <string name="schedule_subject_added_caption">Занятие успешно добавлено</string>
+    <string name="schedule_week_loaded_error_caption">Не удалось загрузить номер текущей недели</string>
+    <string name="no_error">Нет ошибки</string>
+    <string name="no_error_caption">Операция выполнена успешно</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="unknown_error_caption">Что ж ...</string>
+    <string name="success_dialog_title">Успешно</string>
+    <string name="success_dialog_caption">Операция выполнена успешно</string>
+
+    <string name="load">Загрузка</string>
+    <string name="load_caption">Пожалуйста, подождите</string>
+
+    <string name="load_schedule">Загрузка расписания</string>
+    <string name="welcome_load_schedule">Загрузите любое расписание</string>
+    <string name="load_schedule_caption">Пожалуйста, подождите</string>
+
+    <!--  Welcome page  -->
+    <string name="welcome_title_bsuir_schedule" translatable="false">BSUIR Schedule</string>
+    <string name="welcome_caption_bsuir_schedule">Расписания студентов и преподавателей университета БГУИР</string>
+    <string name="welcome_title_search">Удобный поиск</string>
+    <string name="welcome_caption_search">Поиск расписаний по кафедре, специальности, курсу, факультету и другим характеристикам.</string>
+    <string name="welcome_title_info">Информативность</string>
+    <string name="welcome_caption_info">Расшифровка всех аббревиатур. Информация о том, в какой аудитории находится группа или преподаватель в данный момент времени.</string>
+    <string name="welcome_title_functionality">Функциональность</string>
+    <string name="welcome_caption_functionality">Индивидуальные настройки для каждого расписания. Автоматическое обновление расписаний.</string>
+    <string name="welcome_title_localization">Локализация</string>
+    <string name="welcome_caption_localization">Поддержка 4 языков. Русский, английский, белорусский и китайский</string>
+    <string name="welcome_title_etc">Что еще?</string>
+    <string name="welcome_caption_etc">Начните, чтобы узнать другие возможности приложения</string>
+
+    <!--  Shared Preferences  -->
+    <string name="preference_file_name" translatable="false">my_app</string>
+    <string name="preference_is_first_time" translatable="false">is_first_time</string>
+    <string name="preference_is_data_loading_trouble" translatable="false">is_data_loading_trouble</string>
+    <string name="active_schedule_id" translatable="false">active_schedule_id</string>
+    <string name="active_language_code" translatable="false">active_language_code</string>
+    <string name="active_theme_code" translatable="false">active_theme_type</string>
+    <string name="preference_is_notify_enabled" translatable="false">preference_is_notify_enabled</string>
+    <string name="preference_default_schedule_title" translatable="false">preference_default_schedule_title</string>
+    <string name="schedule_update_counter" translatable="false">schedule_update_counter</string>
+    <string name="schedule_auto_update_date" translatable="false">schedule_auto_update_date</string>
+    <string name="auto_update_schedule_id" translatable="false">auto_update_schedule_id</string>
+    <string name="no_content">Нет контента</string>
+    <string name="no_saved_schedule">Сохраненных расписаний нет</string>
+    <string name="no_schedule_choose">Расписание не выбрано</string>
+    <string name="no_schedule_updated_history">Нет сохранённых обновлений</string>
+    <string name="no_schedule">%s (нет занятий)</string>
+    <string name="no_schedule_placeholder">Нет расписания</string>
+    <string name="no_items_placeholder">Расписания не загрузились (\nПотяните вниз, чтобы обновить</string>
+    <string name="no_exams_placeholder">Нет экзаменов</string>
+    <string name="settings_lang_title">Язык приложения</string>
+    <string name="settings_lang_caption">Локализация приложения частична.\nРасписания будут всегда на русском.</string>
+    <string name="settings_theme_title">Цветовая тема</string>
+    <string name="settings_theme_caption">Выберите темную или светлую тему</string>
+    <string name="settings_notifications_title">Уведомления</string>
+    <string name="settings_notifications_caption">Уведомления работают только при автообновлении расписаний</string>
+    <string name="settings_rate_title">Оценить</string>
+    <string name="settings_share_title">Поделиться</string>
+    <string name="settings_share_caption">Вы можете поделиться приложением с другими людьми</string>
+    <string name="settings_rate_caption">Сообщите о проблеме, возможно вы столкнулись с багом или знаете, что можно исправить/добавить?</string>
+    <string name="settings_feedback_title">Обратная связь</string>
+    <string name="settings_font_title">Размер шрифта</string>
+    <string name="settings_font_caption">Размер можно уменьшить или увеличить</string>
+    <string name="settings_auto_update">Автоматическое обновление</string>
+    <string name="settings_auto_update_caption">При появлений обновлений, расписание автоматически обновится</string>
+    <string name="settings_notification">Уведомлять при обновлении</string>
+    <string name="settings_alarm_on">Включить будильник</string>
+    <string name="settings_show_empty_day">Показывать пустые дни</string>
+    <string name="settings_show_empty_day_caption">Дни, в которых нет занятий, можно скрыть, чтобы получить более информативное расписание</string>
+    <string name="settings_show_short_version">Показывать в коротком виде</string>
+    <string name="settings_show_short_version_caption">Дополнительная информация будет скрыта и занятия будут занимать меньше места</string>
+    <string name="settings_show_past_days">Показывать прошедшие дни</string>
+    <string name="settings_show_past_days_caption">Вы можете указать количество прошедших дней, чтобы видеть их на расписании</string>
+    <string name="settings_schedule_title">Расписания</string>
+    <string name="settings_auto_update_title">Автообновление</string>
+    <string name="settings_past_days_title">Прошедшие дни</string>
+    <string name="settings_empty_days_title">Пустые дни</string>
+    <string name="settings_short_schedule_title">Вид занятий</string>
+    <string name="settings_schedule_caption">Вы можете изменить настройки расписаний</string>
+    <string name="settings_exams_title">Экзамены</string>
+    <string name="settings_exams_caption">Настройки экзаменов</string>
+    <string name="settings_alarm_title">Будильник</string>
+    <string name="settings_alarm_caption">Будильник определяет, к какой завтра паре нужно и звонит за N часов до ее начала.</string>
+    <string name="settings_schedule_subgroup_title">Подгруппа</string>
+    <string name="settings_schedule_subgroup_caption">Отфильтруйте занятия по подгруппам</string>
+    <string name="settings_lang_chosen">Выбран %s язык</string>
+    <string name="settings_theme_chosen">Выбрана %s тема</string>
+    <string name="settings_notifications_enabled">Уведомления включены</string>
+    <string name="settings_notifications_disabled">Уведомления отключены</string>
+    <string name="settings_lang_ru" translatable="false">Русский</string>
+    <string name="settings_lang_en" translatable="false">English</string>
+    <string name="settings_lang_be" translatable="false">Беларускі</string>
+    <string name="settings_lang_zh" translatable="false">中国人</string>
+    <string name="settings_lang_ru_code" translatable="false">ru-RU</string>
+    <string name="settings_lang_en_code" translatable="false">en-EN</string>
+    <string name="settings_lang_be_code" translatable="false">be-BE</string>
+    <string name="settings_lang_zh_code" translatable="false">zh-CN</string>
+    <string name="current_lang">Русский</string>
+    <string name="settings_light_theme">Светлая</string>
+    <string name="settings_all_subgroups">Все подгруппы</string>
+    <string name="settings_thin_font_size">Маленький</string>
+    <string name="settings_medium_font_size">Нормальный</string>
+    <string name="settings_big_font_size">Огромный</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Темная</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_item_subgroup">%d подгруппа</string>
+    <string name="no_calendar_placeholder">Будет доступно в следующем обновлении</string>
+    <string name="get_started">Начать</string>
+    <string name="get_started_next">Далее</string>
+    <string name="get_started_skip">Пропустить</string>
+    <string name="not_available">В процессе разработки</string>
+    <string name="schedule_updated_deleted">Удалено %s</string>
+    <string name="schedule_updated_added">Добавлено %s</string>
+    <string name="schedule_updated_note">Изменено примечание в %s</string>
+    <string name="schedule_updated_weeks">Изменены учебные недели в %s</string>
+    <string name="schedule_updated_lesson_type">Изменен тип занятия в %s</string>
+    <string name="schedule_updated_subgroup">Изменена подгруппа в %s</string>
+    <string name="schedule_updated_employee">Изменен преподаватель в %s</string>
+    <string name="schedule_updated_group">Изменена группа в %s</string>
+    <string name="schedule_updated_audience">Изменена аудитория в %s</string>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="font_size">
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Огромный</item>
+    </string-array>
+
+    <string-array name="app_theme">
+        <item>Системная</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+
+    <plurals name="plural_groups">
+        <item quantity="zero">найдено %d групп</item>
+        <item quantity="one">найдена %d группа</item>
+        <item quantity="two">найдены %d группы</item>
+        <item quantity="few">найдены %d группы</item>
+        <item quantity="many">найдено %d групп</item>
+        <item quantity="other">найдены %d группы</item>
+    </plurals>
+
+    <plurals name="plural_schedules">
+        <item quantity="zero">%d расписаний</item>
+        <item quantity="one">%d расписание</item>
+        <item quantity="two">%d расписания</item>
+        <item quantity="few">%d расписания</item>
+        <item quantity="many">%d расписаний</item>
+        <item quantity="other">%d расписания</item>
+    </plurals>
+
+    <plurals name="plural_lessons">
+        <item quantity="zero">%d занятий</item>
+        <item quantity="one">%d занятие</item>
+        <item quantity="two">%d занятия</item>
+        <item quantity="few">%d занятия</item>
+        <item quantity="many">%d занятий</item>
+        <item quantity="other">%d занятия</item>
+    </plurals>
+
+    <plurals name="plural_case_lessons">
+        <item quantity="zero">%d занятии</item>
+        <item quantity="one">%d занятии</item>
+        <item quantity="two">%d занятиях</item>
+        <item quantity="few">%d занятиях</item>
+        <item quantity="many">%d занятиях</item>
+        <item quantity="other">%d занятиях</item>
+    </plurals>
+
+    <plurals name="plural_employees">
+        <item quantity="zero">найдено %d преподавателей</item>
+        <item quantity="one">найден %d преподаватель</item>
+        <item quantity="two">найдены %d преподавателя</item>
+        <item quantity="few">найдено %d преподавателя</item>
+        <item quantity="many">найдено %d преподавателей</item>
+        <item quantity="other">найдены %d преподавателя</item>
+    </plurals>
+
+    <plurals name="plural_exams">
+        <item quantity="zero">%d экзаменов</item>
+        <item quantity="one">%d экзамен</item>
+        <item quantity="two">%d экзамена</item>
+        <item quantity="few">%d экзамена</item>
+        <item quantity="many">%d экзаменов</item>
+        <item quantity="other">%d экзамена</item>
+    </plurals>
+
+    <plurals name="plural_changes">
+        <item quantity="zero">%d изменений</item>
+        <item quantity="one">%d изменение</item>
+        <item quantity="two">%d изменения</item>
+        <item quantity="few">%d изменения</item>
+        <item quantity="many">%d изменений</item>
+        <item quantity="other">%d изменений</item>
+    </plurals>
+
+    <plurals name="plural_lessons_short">
+        <item quantity="zero">%d пар</item>
+        <item quantity="one">%d пара</item>
+        <item quantity="two">%d пары</item>
+        <item quantity="few">%d пары</item>
+        <item quantity="many">%d пар</item>
+        <item quantity="other">%d пары</item>
+    </plurals>
+
+    <plurals name="plural_weeks_left">
+        <item quantity="zero">%d недель</item>
+        <item quantity="one">неделю</item>
+        <item quantity="two">%d недели</item>
+        <item quantity="few">%d недели</item>
+        <item quantity="many">%d недель</item>
+        <item quantity="other">%d недель</item>
+    </plurals>
+
+    <plurals name="plural_days_left">
+        <item quantity="zero">%d дней</item>
+        <item quantity="one">%d день</item>
+        <item quantity="two">%d дня</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
+    </plurals>
+
+    <plurals name="plural_hours">
+        <item quantity="zero">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+
+    <plurals name="plural_minutes">
+        <item quantity="zero">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+
+    <string-array name="week_days">
+        <item name="monday">Понедельник</item>
+        <item name="tuesday">Вторник</item>
+        <item name="wednesday">Среда</item>
+        <item name="thursday">Четверг</item>
+        <item name="friday">Пятница</item>
+        <item name="saturday">Суббота</item>
+        <item name="sunday">Воскресенье</item>
+    </string-array>
+
+    <string name="schedule_widget_description">Расписание выбранной группы или преподавателя в приложении</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+    <string name="app_widget_description" translatable="false">This is an app widget description</string>
+    <string name="schedule_settings_schedule_past_days_hint_text">Сколько прошедших дней показывать?</string>
+    <string name="reset">Сбросить</string>
+    <string name="save">Сохранить</string>
+    <string name="rename_schedule_dialog_caption">Новое название будет в помечено скобках</string>
+    <string name="rename_schedule_dialog_title">Введите название</string>
+    <string name="done">Готово</string>
+    <string name="schedule_success_loaded">Расписание загружено</string>
+    <string name="schedule_success_loaded_caption">Расписание загружено и смоделировано успешно</string>
+    <string name="delete_subject_dialog_all">Все занятия по %s</string>
+    <string name="delete_subject_dialog_type">Все (%s) по %s</string>
+    <string name="delete_subject_dialog_period">Все занятия по %s, (%s), %s</string>
+    <string name="delete_subject_dialog_subgroup">Только для %d подгруппы</string>
+    <string name="also_delete">Удалить так же:</string>
+    <string name="also_edit">Изменить так же:</string>
+    <string name="subgroup_label">Подгруппа</string>
+    <string name="week_day">День недели</string>
+    <string name="note_label">Примечание</string>
+    <string name="audience_label">Аудитория</string>
+    <string name="start_time_label">Время начало</string>
+    <string name="end_time_label">Время конца</string>
+    <string name="week_label">Неделя</string>
+    <string name="full_title_label">Полное название</string>
+    <string name="short_title_label">Короткое название</string>
+    <string name="see">Посмотреть</string>
+    <string name="schedule_header_menu_edit">Изменить</string>
+    <string name="schedule_header_menu_update">Обновить</string>
+    <string name="schedule_header_menu_settings">Настройки</string>
+    <string name="schedule_header_menu_add_subject">Добавить занятие</string>
+    <string name="schedule_header_menu_update_history">История обновлений</string>
+    <string name="schedule_header_menu_share">Поделиться</string>
+    <string name="schedule_header_menu_more">Дополнительно</string>
+    <string name="schedule_header_menu_add_widget">Добавить виджет</string>
+    <string name="schedule_header_menu_delete">Удалить</string>
+    <string name="widget_text_fake_3">9 февраля</string>
+    <string name="widget_text_fake_1">151003</string>
+    <string name="widget_text_fake_4">Суббота</string>
+    <string name="widget_text_fake_5">3 пары</string>
+    <string name="deleted">Удалено</string>
+    <string name="no_changes">Без изменений</string>
+    <string name="added">Добавлено</string>
+    <string name="download">Загрузить</string>
+    <string name="rate">Оценить</string>
+    <string name="share">Поделиться</string>
+    <string name="shareText">Строка для отправки текста, при помощи Share</string>
+    <string name="shareTitle">Заголовок "поделиться"</string>
+
+</resources>
+
+

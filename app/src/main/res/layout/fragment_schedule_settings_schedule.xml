@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.khomenok.monitorschedule.presentation.views.CheckBoxView
+        android:id="@+id/autoUpdateCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checkbox_caption="@string/settings_auto_update"
+        app:checkbox_description="@string/settings_auto_update_caption"
+        app:checkbox_icon="@drawable/ic_schedule"
+        app:checkbox_title="@string/settings_auto_update_title" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <com.khomenok.monitorschedule.presentation.views.CheckBoxView
+        android:id="@+id/shortScheduleCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checkbox_caption="@string/settings_show_short_version"
+        app:checkbox_description="@string/settings_show_short_version_caption"
+        app:checkbox_icon="@drawable/ic_view"
+        app:checkbox_title="@string/settings_short_schedule_title" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/secondaryColor"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingVertical="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_past" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Theme.BSUIRSchedule.TextView.Title"
+                    android:text="@string/settings_past_days_title" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <com.khomenok.monitorschedule.presentation.views.EditTextView
+                android:id="@+id/pastDaysAmountEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                app:caption="@string/settings_show_past_days_caption"
+                app:hint="0"
+                android:inputType="number" />
+s
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <com.khomenok.monitorschedule.presentation.views.CheckBoxView
+        android:id="@+id/emptyDaysCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:checkbox_caption="@string/settings_show_empty_day"
+        app:checkbox_description="@string/settings_show_empty_day_caption"
+        app:checkbox_icon="@drawable/ic_empty"
+        app:checkbox_title="@string/settings_empty_days_title" />
+
+</LinearLayout>
+

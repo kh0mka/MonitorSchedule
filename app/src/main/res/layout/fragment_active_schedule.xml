@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    tools:context=".presentation.fragments.ActiveScheduleFragment">
+
+    <com.khomenok.monitorschedule.presentation.views.ScheduleHeaderView
+        android:id="@+id/scheduleHeaderView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="151003"
+        app:subTitle="ФКСИС ПОИТ"
+        app:subgroup="3" />
+
+</LinearLayout>
+
+

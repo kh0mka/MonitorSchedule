@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?attr/primaryOnColor">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/primaryOnColor"
+        app:tabBackground="@drawable/dot"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+        android:layout_margin="20dp"
+        android:text="@string/get_started_next"
+        style="@style/Theme.BSUIRSchedule.Button"
+        android:textColor="?attr/secondaryTextColor"
+        android:backgroundTint="?attr/secondaryColor" />
+
+    <Button
+        android:id="@+id/get_started_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        android:text="@string/get_started"
+        style="@style/Theme.BSUIRSchedule.Button"
+        android:textColor="?attr/primaryTextColor"
+        android:backgroundTint="?attr/primaryColor" />
+
+</LinearLayout>
+
+

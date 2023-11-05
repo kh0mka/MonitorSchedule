@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/primaryOnColor"
+    tools:context=".presentation.fragments.ScheduleSubjectAddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/primaryColor"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="15dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cancel_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            style="@style/Theme.BSUIRSchedule.ImageButton"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_schedule_list"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_subject_add_title"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            style="@style/Theme.BSUIRSchedule.TextView.Medium.Title"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.khomenok.monitorschedule.presentation.views.AddCustomSubjectView
+        android:id="@+id/addCustomSubjectView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
