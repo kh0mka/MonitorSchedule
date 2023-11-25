@@ -224,16 +224,16 @@
     <string name="load_schedule_caption">Пожалуйста, подождите</string>
 
     <!--  Welcome page  -->
-    <string name="welcome_title_bsuir_schedule" translatable="false">BSUIR Schedule</string>
-    <string name="welcome_caption_bsuir_schedule">Расписания студентов и преподавателей университета БГУИР</string>
-    <string name="welcome_title_search">Удобный поиск</string>
-    <string name="welcome_caption_search">Поиск расписаний по кафедре, специальности, курсу, факультету и другим характеристикам.</string>
-    <string name="welcome_title_info">Информативность</string>
-    <string name="welcome_caption_info">Расшифровка всех аббревиатур. Информация о том, в какой аудитории находится группа или преподаватель в данный момент времени.</string>
-    <string name="welcome_title_functionality">Функциональность</string>
-    <string name="welcome_caption_functionality">Индивидуальные настройки для каждого расписания. Автоматическое обновление расписаний.</string>
+    <string name="welcome_title_bsuir_schedule" translatable="false">Monitor Schedule</string>
+    <string name="welcome_caption_bsuir_schedule">Расписание занятий БГУИР</string>
+    <string name="welcome_title_search">Поиск</string>
+    <string name="welcome_caption_search">Поиск расписаний по: кафедра, специальность, курс, факультет и др.</string>
+    <string name="welcome_title_info">Всё — для пользователя</string>
+    <string name="welcome_caption_info">Как полностью называется предмет? Легко! Где на данный момент группа? Легко! Где преподаватель? Легко!</string>
+    <string name="welcome_title_functionality">Функции</string>
+    <string name="welcome_caption_functionality">Настрой расписание для себя, а также его автоматическое обновление</string>
     <string name="welcome_title_localization">Локализация</string>
-    <string name="welcome_caption_localization">Поддержка 4 языков. Русский, английский, белорусский и китайский</string>
+    <string name="welcome_caption_localization">Поддержка 2 языков, — русский и английский</string>
     <string name="welcome_title_etc">Что еще?</string>
     <string name="welcome_caption_etc">Начните, чтобы узнать другие возможности приложения</string>
 

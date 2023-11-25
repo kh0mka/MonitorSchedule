@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit
 object RetrofitBuilder {
 
     private const val baseUrl = "https://iis.bsuir.by/api/v1/"
-
     fun getInstance(): Retrofit {
         val okHttpClient = OkHttpClient.Builder()
             .connectTimeout(1, TimeUnit.MINUTES)

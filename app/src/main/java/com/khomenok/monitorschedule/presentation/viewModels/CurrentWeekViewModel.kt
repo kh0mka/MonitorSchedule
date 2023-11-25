@@ -10,7 +10,6 @@ import com.khomenok.monitorschedule.domain.utils.Resource
 import com.khomenok.monitorschedule.domain.utils.StatusCode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-
 class CurrentWeekViewModel(
     private val getCurrentWeekUseCase: GetCurrentWeekUseCase
 ): ViewModel() {
