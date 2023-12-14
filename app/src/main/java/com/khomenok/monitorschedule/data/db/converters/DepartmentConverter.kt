@@ -19,5 +19,4 @@ class DepartmentConverter {
         val listType = object: TypeToken<List<DepartmentTable>>(){}.type
         return Gson().fromJson(departmentsJSON, listType)
     }
-
 }

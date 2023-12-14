@@ -18,5 +18,4 @@ class IntListConverter {
         val listType = object: TypeToken<List<Int>>(){}.type
         return Gson().fromJson(intListJSON, listType)
     }
-
 }

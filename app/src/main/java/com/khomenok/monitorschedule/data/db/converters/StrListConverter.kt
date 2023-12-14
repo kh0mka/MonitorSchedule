@@ -18,5 +18,4 @@ class StrListConverter {
         val listType = object: TypeToken<List<String>>(){}.type
         return Gson().fromJson(departmentsJSON, listType)
     }
-
 }

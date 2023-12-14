@@ -19,5 +19,4 @@ class GroupConverter {
         val listType = object: TypeToken<Group>(){}.type
         return Gson().fromJson(groupJSON, listType)
     }
-
 }

@@ -25,6 +25,8 @@ class App : Application() {
 
         val prefs = SharedPrefsRepositoryImpl(this)
 
+        // Detect from data/repositorySharedPrefsrepositoryImpl theme of system or another and
+        // sets it with helps of AppCompat library
         when (prefs.getThemeType()) {
             ThemeType.SYSTEM -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
             ThemeType.DARK -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
@@ -46,6 +48,7 @@ class App : Application() {
         }
     }
 
+    // Initialize background task to update schedule every day in 20:00 PM
     private fun initScheduleUpdated() {
         val calendar = Calendar.getInstance(Locale("ru", "BY"))
         calendar.set(Calendar.HOUR, 20)
@@ -55,10 +58,10 @@ class App : Application() {
             Duration.ofDays(1)
         )
             .setInitialDelay(calendar.timeInMillis - Date().time, TimeUnit.MILLISECONDS)
-            .setConstraints(
+            .setConstraints( // Set constrains (requirements) of WorkRequest to work with this
                 Constraints.Builder()
                     .setRequiredNetworkType(
-                        NetworkType.CONNECTED
+                        NetworkType.CONNECTED // requirements of schedule updates
                     )
                     .build()
             )

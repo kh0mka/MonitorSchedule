@@ -19,5 +19,4 @@ class ScheduleDayListConverter {
         val listType = object: TypeToken<ArrayList<ScheduleDay>>(){}.type
         return Gson().fromJson(schedule, listType)
     }
-
 }

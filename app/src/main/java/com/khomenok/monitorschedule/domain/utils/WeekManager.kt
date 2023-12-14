@@ -45,5 +45,4 @@ class WeekManager {
 
         return weekAmount
     }
-
 }

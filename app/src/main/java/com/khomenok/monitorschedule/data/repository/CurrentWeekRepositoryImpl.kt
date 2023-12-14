@@ -61,5 +61,4 @@ class CurrentWeekRepositoryImpl(private val currentWeekDao: CurrentWeekDao) : Cu
             )
         }
     }
-
 }
